@@ -1,0 +1,22 @@
+{
+    "extends": ["airbnb-base", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+      "camelcase": 1,
+      "max-len": 1,
+      "no-unused-vars": 1,
+      "no-bitwise": 1,
+      "no-underscore-dangle": 1,
+      "no-param-reassign": 1,
+      "array-callback-return": 1,
+      "no-shadow": 1,
+      "no-plusplus": 1,
+      "no-unused-expressions": 1,
+      "global-require": 1,
+      "no-dupe-keys": 1,
+      "key-spacing": "off",
+      "prettier/prettier": "warn",
+      "no-nested-ternary": 1,
+      "no-await-in-loop": 1
+    }
+  }
